@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": "off",
+    "react/button-has-type": "off",
+    "react/require-default-props": "off",
+    "no-undef": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "no-alert": "off",
+    "no-shadow": "off",
+    "array-callback-return": "off",
+    "react/no-array-index-key": "off",
+    "consistent-return": "off",
+    "no-restricted-syntax": "off"
+  }
+}
