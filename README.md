@@ -17,7 +17,7 @@ Ela responderá na porta 8080.
 ## Rodando o Front-end
 
 ```console
-cd FRONT
-npm install
-npm start
+> cd FRONT
+> npm install
+> npm start
 ```
