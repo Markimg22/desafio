@@ -21,3 +21,5 @@ Ela responderá na porta 8080.
 > npm install
 > npm start
 ```
+
+OBS: tive que alterar a porta no BACK para 8080
