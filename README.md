@@ -22,4 +22,6 @@ Ela responderá na porta 8080.
 > npm start
 ```
 
-OBS: tive que alterar a porta no BACK para 8080
+## OBS: 
+- versão Node utilizada v14.18.1
+- tive que alterar a porta no BACK para 8080
