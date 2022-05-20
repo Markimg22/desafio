@@ -14,6 +14,7 @@ declare module 'styled-components' {
       large: string;
       medium: string;
       default: string;
+      small: string;
     };
   }
 }

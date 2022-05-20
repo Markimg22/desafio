@@ -77,6 +77,9 @@ export const Delete = styled.button`
   background-color: ${(props) => props.theme.colors.red};
   color: ${(props) => props.theme.colors.primary};
   font-size: ${(props) => props.theme.fonts.medium};
+  @media (max-width: 1223px) {
+    font-size: ${(props) => props.theme.fonts.small};
+  }
 `;
 
 export const Create = styled.button`
@@ -87,6 +90,9 @@ export const Create = styled.button`
   background-color: ${(props) => props.theme.colors.green};
   color: ${(props) => props.theme.colors.primary};
   font-size: ${(props) => props.theme.fonts.medium};
+  @media (max-width: 1223px) {
+    font-size: ${(props) => props.theme.fonts.small};
+  }
 `;
 
 export const Update = styled.button`
@@ -97,6 +103,9 @@ export const Update = styled.button`
   background-color: ${(props) => props.theme.colors.background};
   color: ${(props) => props.theme.colors.primary};
   font-size: ${(props) => props.theme.fonts.medium};
+  @media (max-width: 1223px) {
+    font-size: ${(props) => props.theme.fonts.small};
+  }
 `;
 
 export const ContainerButtons = styled.div`
